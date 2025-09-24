@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 mongoose
   .connect(
-    "mongodb+srv://Gaurav:Gaurav@cluster0.rpmzwku.mongodb.net/IBM_RECS?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb+srv://username:password@cluster0.rpmzwku.mongodb.net/IBM_RECS?retryWrites=true&w=majority&appName=Cluster0"
   )
   .then(console.log("connected to mongoDB"))
   .catch((err) => {
